@@ -1,5 +1,7 @@
 import { Link, Outlet } from 'react-router-dom';
-const DashboardLayout = () => {
+const DashboardLayout = (
+    
+) => {
     return (
         <div style={{padding: '1rem', color: 'Black', textAlign: 'left' }}>
             <h3>Dashboard</h3>
