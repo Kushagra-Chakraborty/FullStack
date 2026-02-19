@@ -1,5 +1,5 @@
 import { display_product } from "./displayprod";
-import * as api from "../data/product";
+import * as api from "../../data/product";
 import render from "@testing-library/react";
 
 jest.mock("../data/product");
