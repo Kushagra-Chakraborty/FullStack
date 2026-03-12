@@ -9,6 +9,7 @@ import Login from './pages/login.jsx';
 import Summary from './pages/summary.jsx';
 import Analytics from './pages/analytics.jsx';
 import ProtectedRoutes from './Routes/ProtectedRoutes.jsx';
+import TaskManager from './components/TaskManager.jsx';
 function App() {
   return (
     <div>
@@ -24,8 +25,8 @@ function App() {
         }
         
       >
-        {/* <Route path="logout" element={<Logout/>}/> */}
-        <Route index element={<DashboardLayout/>}/>
+
+        <Route index element={<TaskManager/>}/>
         <Route path="Summary" element={<Summary/>}/>
         <Route path="Analytics" element={<Analytics/>}/>
 
